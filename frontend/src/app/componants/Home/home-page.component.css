@@ -1,0 +1,10 @@
+.banner{
+    width: 100%;
+    height: 547px;
+    color: rgb(9, 8, 8);
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+    background-size: 100%;
+    color: white;
+    
+
+}
