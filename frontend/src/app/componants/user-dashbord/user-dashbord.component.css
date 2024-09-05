@@ -1,0 +1,39 @@
+.navbar-nav{
+    margin-left: 800px;
+}
+.main_contant{
+    background: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+    height: 547px;
+    color: black;
+}
+
+.sidebar{
+    box-shadow: 0 0 30px rgba(253, 98, 220, 0.9);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding-top: 45px;
+}
+.sidebar a{
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color:white;
+}
+.sidebar a:hover{
+    background: #6f6b6b;
+}
+.sidebar .closeBtn{
+    position: absolute;
+    top: 0px;
+    right: 36px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.content{
+    margin-left: 23%;
+}
+.content{
+    cursor: pointer;
+}
