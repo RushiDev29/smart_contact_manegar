@@ -1,0 +1,36 @@
+.main-login{
+    background: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+    background-size: 100%;
+    height: 547px;
+    padding-top: 5px;
+   
+}
+
+.container{
+    background: transparent;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(235, 228, 228, 0.9);
+    height: 360px;
+    width: 300px;
+    padding-inline-start: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+}
+.btn-btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+.custom-input {
+    width: 220px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+}
+  

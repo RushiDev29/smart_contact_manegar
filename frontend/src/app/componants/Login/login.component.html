@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<div class="main-login">
+    <div class="container">
+        <h3> Login Here </h3>
+        <div class="custom-input">
+        <label for="username">Username :- </label>
+        <input type="text" class="form-control border-primary" [(ngModel)]="username" name="username" placeholder=" Enter Your username">
+    </div>
+      <div class="custom-input">
+        <label for="password">Password :- </label>
+        <input type="password" class="form-control border-primary" [(ngModel)]="password" name="password" placeholder=" Enter Your Password">
+      </div><br>
+    <div class="btn-btn">
+        <button type="button" class="btn btn-primary" (click)="login()" >Login</button><br><br>
+        <p>Create Account ? <a routerLink="/signup"> Signup Here </a>
+    </div>
+    </div>
+</div>
