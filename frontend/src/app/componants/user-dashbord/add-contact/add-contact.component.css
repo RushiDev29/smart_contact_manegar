@@ -1,0 +1,54 @@
+.navbar-nav{
+    margin-left: 800px;
+}
+.main_contant{
+
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+    height: 547px;
+    color: black;
+}
+
+.sidebar{
+    box-shadow: 0 0 30px rgba(228, 226, 228, 0.9);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding-top: 45px;
+}
+.sidebar a{
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+.sidebar a:hover{
+    background: #e2e2e2;
+}
+.sidebar .closeBtn{
+    position: absolute;
+    top: 0px;
+    right: 36px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.content{
+    margin-left: 23%;
+    padding-top: 20px;
+}
+.content{
+    cursor: pointer;
+}
+.router{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+.input-group {
+    
+    width: 800px; 
+    height: 30px; 
+    padding: 5px; 
+    font-size: 16px; 
+    margin-left:85px;
+}
