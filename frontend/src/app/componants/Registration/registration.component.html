@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+<!-- Here is ragistration page  -->
+<form action="" >
+    <div class="main-container">
+       <div class="container">
+          <h3>Create Account</h3> 
+
+           <!-- Here is username field -->
+          <div class="custom-input">
+             <label for="name">Username :- </label><br>
+             <input type="text" class="form-control border-primary" required [(ngModel)]="user.username" name="username" placeholder="Enter Your Username"><br><br>
+          </div>
+
+         <!-- Here is email field -->
+         <div class="custom-input">
+             <label for="email">Email_Id :- </label><br>
+             <input type="email" class="form-control border-primary" [(ngModel)]="user.emailid" name="useremail" placeholder="Enter Your Email"><br><br>
+         </div>
+
+         <!-- Here is user role field-->
+         <div class="custom-input">
+            <label for="role">Name :-</label><br>
+            <input type="text" class="form-control border-primary" [(ngModel)]="user.name" name="name" placeholder="Enter Your role">
+
+         </div>  
+
+         <!-- Here is password field -->
+         <div class="custom-input">
+             <label for="password">Password :- </label><br>
+             <input type="password" class="form-control border-primary" [(ngModel)]="user.password" name="password" placeholder="Enter Your Password">
+         </div>
+         <br> 
+
+          <!-- Here is submit button  -->
+         <div class="router">
+             <button type="button" class="btn btn-primary" (click)="saveUser()" routerLink="/login" > SignUp</button><br><br>
+             <p>Already Account ? <a routerLink="/login">Login Here </a> 
+          </div>
+        </div>
+    
+    </div>
+</form>
+
+
+

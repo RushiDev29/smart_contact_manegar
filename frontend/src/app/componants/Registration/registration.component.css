@@ -1,0 +1,38 @@
+
+.main-container{
+background: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+background-size: 100%;
+padding-top: 2px;
+height: 547px;
+}
+.container{
+    background: transparent;
+    background-size: cover;
+    width: 100%;
+    max-width: 400px;
+    margin: 70px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgba(24, 10, 222, 0.9);
+    height: 450px;
+    width: 300px;
+    padding-inline-start: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: whitesmoke;
+       
+}
+.router{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+.custom-input {
+    width: 220px; 
+    height: 70px; 
+    padding: 5px; 
+    font-size: 16px; 
+}
+  
+    
