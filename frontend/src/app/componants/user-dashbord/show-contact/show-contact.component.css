@@ -1,0 +1,90 @@
+.navbar-nav{
+    margin-left: 800px;
+}
+.main_contant{
+
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+    /* background-image:linear-gradient(to right bottom, orange, white) ; */
+    height: 547px;
+    color: black;
+}
+
+.sidebar{
+    box-shadow: 0 0 30px rgba(228, 226, 228, 0.9);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding-top: 45px;
+}
+.sidebar a{
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+.sidebar a:hover{
+    background: #e2e2e2;
+}
+.sidebar .closeBtn{
+    position: absolute;
+    top: 0px;
+    right: 36px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.content{
+    margin-left: 20%;
+    padding-top: 20px;
+}
+.content{
+    cursor: pointer;
+    margin-right: 10%;
+}
+.router{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+.view-table {
+    
+    width: 800px; 
+    height: 30px; 
+    padding: 5px; 
+    font-size: 16px; 
+    margin-left: 120px;
+}
+
+table{
+    width: 60%;
+    border-collapse: initial;
+    margin: 20px, auto;
+}
+
+th,
+td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(174, 248, 217);
+
+}
+
+th{
+    background-color: #007bff;
+    counter-reset: #fff;
+    
+}
+
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+
+}
+.router{
+    text-align: center ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+

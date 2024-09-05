@@ -1,0 +1,106 @@
+<div class="main_navbar">
+    <!-- Here is Navbar -->
+      
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Smart Contact Manegar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav text-uppercase ml-auto">
+  
+              <!-- Here is Home link -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home">{{home}}</a>
+          </li>
+                
+             <!-- Here is Login link -->
+  
+          <li class="nav-item">
+            <a class="nav-link Login active" aria-disabled="true" href="/login">{{username}}</a>
+          </li>
+  
+             <!-- Here is Sinup link -->
+  
+             <li class="nav-item">
+              <a class="nav-link sinup active" aria-disabled="true " href="/login">{{logout}}</a>
+              
+            </li>
+  
+        </ul>
+       <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+     <!-- End Of Navbar -->
+  
+  <div class="main_contant">
+    <!-- Here is sidebar -->
+    <div class="sidebar" >
+      <span class="closeBtn">&times;</span>
+      <a href="/userdashbord" class="item"><i class="fa-solid fa-house-chimney"></i> Home</a>
+      <a href="/showcontact" class="item"><i class="fa-solid fa-id-card-clip"></i> View Contact</a>
+      <a href="/addcontact" class="item"><i class="fa-sharp fa-solid fa-user-plus"></i> Add Contact</a>
+      <a href="/userdashbord" class="item"><i class="fa-regular fa-user"></i> Your Profile</a>
+      <a href="/login" class="item"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+    </div>
+    <!-- End Of Sidebar -->
+    <!-- Here is content -->
+    <div class="content" >
+      <i class="fas fa-bars m-3"></i>
+      <h1 class="text-center"> View contact </h1>
+
+<div class="view-table">
+    <table border="1">
+        <thead class="table-head">
+            <tr>
+                <th>Name</th>
+                <th>NickName</th>
+                <th>Email</th>
+                <th>Mobile number</th>
+                <th>Profetion</th>
+                <th>Delete Action</th>
+                <th>Update Action</th>
+
+                
+            </tr>
+        </thead>
+        <tbody>
+          
+            <tr *ngFor="let item of contacts" >
+              <!-- <p>Key: {{item.key}}</p>
+              <p>Value: {{item.value}}</p> -->
+                <td>{{item.name}}</td>
+                <td>{{item.nickName}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.mNumber}}</td>
+                <td>{{item.profetion}}</td>
+                <td><button>Delete</button></td>
+                <td><button >Update</button></td>
+                <!-- (click)="delete(contact.id)" -->
+        
+            </tr>
+           
+        </tbody>
+    </table>
+    </div>
+    <!-- <div class="router">
+    <p>Create Account ? 
+    <a routerLink="/register">Ragister Here</a>
+    </p>
+    </div> -->
+    
+    
+    
+
+   </div>   
+  </div>
+  <!-- End Of Content-->
+  
+   
+  
